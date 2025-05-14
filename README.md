@@ -34,7 +34,7 @@ Tailwind-and-Javascript/
 
 ## 🛠️ Technologies Used
 
-- **HTML**: SFor the structure of the website.
+- **HTML**: For the structure of the website.
 - **Tailwind CSS**: For styling and layout.
 - **JavaScript**: For interactivity and animations.
 - **Font Awesome**: For icons.
