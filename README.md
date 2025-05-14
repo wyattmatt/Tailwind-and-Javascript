@@ -27,7 +27,7 @@ Tailwind-and-Javascript/
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/your-username/Tailwind-and-Javascript.git
+   git clone https://github.com/wyattmatt/Tailwind-and-Javascript.git
    cd Tailwind-and-Javascript
 
 2. Open `index.html` in your browser to view the website.
