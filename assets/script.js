@@ -140,3 +140,55 @@ window.addEventListener("scroll", function () {
     }
   });
 });
+
+// Form validation
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  let isValid = true;
+
+  // Reset all error messages
+  document.querySelectorAll(".error-message").forEach((span) => {
+    span.textContent = "";
+  });
+
+  // Name validation
+  const nameInput = document.getElementById("name");
+  const nameError = document.getElementById("name-error");
+  if (nameInput.value.trim() === "") {
+    nameError.textContent = "Name is required";
+    isValid = false;
+  }
+
+  // Email validation
+  const emailInput = document.getElementById("email");
+  const emailError = document.getElementById("email-error");
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(emailInput.value)) {
+    emailError.textContent = "Invalid email format";
+    isValid = false;
+  }
+
+  // Subject validation
+  const subjectInput = document.getElementById("subject");
+  const subjectError = document.getElementById("subject-error");
+  if (subjectInput.value.trim() === "") {
+    subjectError.textContent = "Subject is required";
+    isValid = false;
+  }
+
+  // Message validation
+  const messageInput = document.getElementById("message");
+  const messageError = document.getElementById("message-error");
+  if (messageInput.value.trim() === "") {
+    messageError.textContent = "Message is required";
+    isValid = false;
+  }
+
+  // If all validations pass, submit the form
+  if (isValid) {
+    form.submit();
+  }
+});
