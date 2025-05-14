@@ -26,6 +26,7 @@ Tailwind-and-Javascript/
 ## 🚀 Getting Started
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/your-username/Tailwind-and-Javascript.git
    cd Tailwind-and-Javascript
@@ -47,7 +48,7 @@ Tailwind-and-Javascript/
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/wyattmatt/Tailwind-and-Javascript/blob/main/LICENSE).
 
 ---
 
