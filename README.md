@@ -5,7 +5,6 @@ This project is a fully responsive portfolio website built using **HTML**, **Tai
 ## 🌟 Features
 
 - **Responsive Design**: Adapts seamlessly to all screen sizes.
-- **Dark Mode Toggle**: Switch between light and dark themes.
 - **Smooth Scrolling**: Navigation links with smooth scrolling effects.
 - **Interactive Elements**: Hover effects, animated skill bars, and project cards.
 - **Back-to-Top Button**: Easily navigate back to the top of the page.
